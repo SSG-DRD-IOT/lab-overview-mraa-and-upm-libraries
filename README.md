@@ -1,7 +1,9 @@
 # Overview of MRAA and UPM Library
 
-## What is the MRAA Library?
 
+
+## What is the MRAA Library?
+![](./images/mraa.png)
 Libmraa is a C/C++ library with bindings to Java, Python and JavaScript to interface with the IO on a variety of IoT boards. Use of libmraa abstracts your specific hardware and uses board detection at runtime to create portable code that will work across many supported platforms.
 
 The intent is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
@@ -36,3 +38,48 @@ If you are interested you can also open the API Reference pages for other langua
 * [MRAA API Documentation for JavaScript](https://iotdk.intel.com/docs/master/mraa/node/)
 
 ## What is the UPM Library?
+![](https://upm.mraa.io/assets/images/logo.png)
+UPM is a sensor library with high-level APIs that make it easy to connect and use sensors and actuators in IoT solutions. Sensors and actuators are exposed as high-level C++ objects that are built upon lower-level MRAA API calls. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.
+
+The constructor is expected to initialize the sensor and parameters may be used to provide identification/pin location on the board.
+
+Typically an update() function will be called in order to get new data from the sensor in order to reduce load when doing multiple reads to sensor data.
+
+## UPM Advantage
+
+* Language support: C/C++, Java*, Node.js*, Python*
+* OS support: Wind River* Intelligent Device Platform XT, Wind River Pulsar* Linux*, Yocto*, Ubuntu*, Android*, Zephyr* RTOS, OpenSUSE*
+* Connectivity options: Wi-Fi, Bluetooth® low energy, ZigBee*, Z-Wave*, LoRa*, Modbus, BACnet*, GPS, GPRS, NFC/RFID, SigFox*, LoRaWAN*, 4G/LTE*
+* Protocols: GPIO, AIO, PWM, I2C, SPI, UART, 1-Wire*
+
+Portability:  Go from prototype to product with minimal rework
+
+Open source and MIT-licensed:  Develop products and solutions without extra licensing costs
+
+More than 300 supported sensors:  Available in sensor libraries
+
+Many distribution channels:  MRAA and UPM packages are available for multiple OS distributions and architectures, including OPKG repository, Ubuntu PPA, 01.org, NPM*, and Maven*
+
+Wide ecosystem:  Intel provides ongoing training and support for IoT developers—expanding the application pool for sensor manufacturers, ISVs, and SIs. At the same time, the Intel® Internet of Things Solutions Alliance allows sensor manufacturers to expand their customer base and connect with developers
+
+## Open the Intel Software Developer Sensor page
+
+Let's begin by opening three important reference pages.
+
+:arrow_forward: **Open the [Sensors page ](https://iotdk.intel.com/docs/master/mraa/) on the Intel Developer Zone**
+
+The sensors page will link to articles related to sensor and actuator support, as well as, a list of industrial sensors that are supported
+
+:arrow_forward: **Open the [UPM](https://upm.mraa.io/)**
+
+:arrow_forward: **Open the [UPM Sensor Finder page](https://upm.mraa.io/findSensor.html)**
+
+Take some time to look up a couple of sensors or actuators that are of interested to you.
+
+:arrow_forward: Look up the [Grove Temperature Sensor](https://upm.mraa.io/sensorDetail.html?name=Temperature) in your kit.
+
+![](https://raw.githubusercontent.com/intel-iot-devkit/upm/master/docs/images/temp.jpg)
+
+:arrow_forward: Look up the [Grove Rotary Angle Sensor](https://upm.mraa.io/sensorDetail.html?name=rotary) in your kit.
+
+![](https://raw.githubusercontent.com/intel-iot-devkit/upm/master/docs/images/rotary.jpg)
