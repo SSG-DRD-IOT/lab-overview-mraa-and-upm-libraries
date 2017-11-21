@@ -30,7 +30,7 @@ Two IDEs that have support for the MRAA and UPM libraries are [Arduino Create](h
 ## Open the MRAA API Documentation
 We will now open the API Documentation page for the MRAA C++ library. Please, keep this page open as you will refer to it during the rest of the lab exercises.
 
-:arrow_forward: **Open the [MRAA API Documentation page for C++](https://iotdk.intel.com/docs/master/mraa/)**
+![](./images/action.png) **Open the [MRAA API Documentation page for C++](https://iotdk.intel.com/docs/master/mraa/)**
 
 If you are interested you can also open the API Reference pages for other language bindings.
 * [MRAA API Documentation for Java](https://iotdk.intel.com/docs/master/mraa/java/)
@@ -38,7 +38,7 @@ If you are interested you can also open the API Reference pages for other langua
 * [MRAA API Documentation for JavaScript](https://iotdk.intel.com/docs/master/mraa/node/)
 
 ## What is the UPM Library?
-![](https://upm.mraa.io/assets/images/logo.png)
+![](./images/logo.png)
 UPM is a sensor library with high-level APIs that make it easy to connect and use sensors and actuators in IoT solutions. Sensors and actuators are exposed as high-level C++ objects that are built upon lower-level MRAA API calls. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.
 
 The constructor is expected to initialize the sensor and parameters may be used to provide identification/pin location on the board.
@@ -74,20 +74,20 @@ Intel provides ongoing training and support for IoT developers—expanding the a
 
 Let's begin by opening three important reference pages.
 
-:arrow_forward: **Open the [Sensors page ](https://iotdk.intel.com/docs/master/mraa/) on the Intel Developer Zone**
+![](./images/action.png) **Open the [Sensors page ](https://iotdk.intel.com/docs/master/mraa/) on the Intel Developer Zone**
 
 The sensors page will link to articles related to sensor and actuator support, as well as, a list of industrial sensors that are supported
 
-:arrow_forward: **Open the [UPM](https://upm.mraa.io/)**
+![](./images/action.png) **Open the [UPM](https://upm.mraa.io/)**
 
-:arrow_forward: **Open the [UPM Sensor Finder page](https://upm.mraa.io/findSensor.html)**
+![](./images/action.png) **Open the [UPM Sensor Finder page](https://upm.mraa.io/findSensor.html)**
 
 Take some time to look up a couple of sensors or actuators that are of interested to you.
 
-:arrow_forward: Look up the [Grove Temperature Sensor](https://upm.mraa.io/sensorDetail.html?name=Temperature) in your kit.
+![](./images/action.png) Look up the [Grove Temperature Sensor](https://upm.mraa.io/sensorDetail.html?name=Temperature) in your kit.
 
-![](https://raw.githubusercontent.com/intel-iot-devkit/upm/master/docs/images/temp.jpg)
+![](./images/temp.png)
 
-:arrow_forward: Look up the [Grove Rotary Angle Sensor](https://upm.mraa.io/sensorDetail.html?name=rotary) in your kit.
+![](./images/action.png) Look up the [Grove Rotary Angle Sensor](https://upm.mraa.io/sensorDetail.html?name=rotary) in your kit.
 
-![](https://raw.githubusercontent.com/intel-iot-devkit/upm/master/docs/images/rotary.jpg)
+![]./images/rotary.png)
