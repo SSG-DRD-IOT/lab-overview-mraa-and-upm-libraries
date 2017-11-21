@@ -86,8 +86,8 @@ Take some time to look up a couple of sensors or actuators that are of intereste
 
 :arrow_forward: Look up the [Grove Temperature Sensor](https://upm.mraa.io/sensorDetail.html?name=Temperature) in your kit.
 
-![](https://raw.githubusercontent.com/intel-iot-devkit/upm/master/docs/images/temp.jpg)
+![](./images/temp.png)
 
 :arrow_forward: Look up the [Grove Rotary Angle Sensor](https://upm.mraa.io/sensorDetail.html?name=rotary) in your kit.
 
-![](https://raw.githubusercontent.com/intel-iot-devkit/upm/master/docs/images/rotary.jpg)
+![](./images/rotary.png)
