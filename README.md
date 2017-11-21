@@ -1,7 +1,5 @@
 # Overview of MRAA and UPM Library
 
-
-
 ## What is the MRAA Library?
 ![](./images/mraa.png)
 Libmraa is a C/C++ library with bindings to Java, Python and JavaScript to interface with the IO on a variety of IoT boards. Use of libmraa abstracts your specific hardware and uses board detection at runtime to create portable code that will work across many supported platforms.
@@ -90,4 +88,4 @@ Take some time to look up a couple of sensors or actuators that are of intereste
 
 ![](./images/action.png) Look up the [Grove Rotary Angle Sensor](https://upm.mraa.io/sensorDetail.html?name=rotary) in your kit.
 
-![]./images/rotary.png)
+![](./images/rotary.png)
