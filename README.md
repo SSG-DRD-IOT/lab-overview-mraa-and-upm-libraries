@@ -70,9 +70,9 @@ Typically an update() function will be called in order to get new data from the 
 | Distribution Channels | MRAA and UPM packages are available for multiple OS distributions and architectures, including OPKG repository, Ubuntu PPA, 01.org, NPM*, and Maven*|
 | Community and Ecosystem | Intel provides ongoing training and support for IoT developers—expanding the application pool for sensor manufacturers, ISVs, and SIs. At the same time, the Intel® Internet of Things Solutions Alliance allows sensor manufacturers to expand their customer base and connect with developers|
 
-## Become familiar with MRAA and UPM Online Resources
+## Open MRAA and UPM Reference Page
 
-Let's begin by opening three important reference pages.
+**Keep these webpages open so that you can reference them in this lab and later in the workshop**
 
 ![](./images/action.png) **Open the [Sensors page ](https://iotdk.intel.com/docs/master/mraa/) on the Intel Developer Zone**
 
