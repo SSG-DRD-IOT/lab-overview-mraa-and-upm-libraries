@@ -6,6 +6,10 @@ Libmraa is a C/C++ library with bindings to Java, Python and JavaScript to inter
 
 The intent is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
 
+##### Further Information
+- [MRAA on Github](https://github.com/intel-iot-devkit/mraa)
+- [MRAA Homepage](http://mraa.io/)
+
 ## Architecture of I/O using MRRA and UPM
 MRRA and UPM are application level libraries that are used in IoT applications to communicate with sensors and actuators.
 
@@ -60,7 +64,7 @@ Go from prototype to product with minimal rework
 Develop products and solutions without extra licensing costs
 
 ##### Sensor and Actuator Support
-More than **300** supported sensors and actuators
+More than **400** supported sensors and actuators
 
 ##### Distribution Channels
 MRAA and UPM packages are available for multiple OS distributions and architectures, including OPKG repository, Ubuntu PPA, 01.org, NPM*, and Maven*
@@ -68,7 +72,7 @@ MRAA and UPM packages are available for multiple OS distributions and architectu
 ##### Community and Ecosystem
 Intel provides ongoing training and support for IoT developers—expanding the application pool for sensor manufacturers, ISVs, and SIs. At the same time, the Intel® Internet of Things Solutions Alliance allows sensor manufacturers to expand their customer base and connect with developers
 
-## Open the Intel Software Developer Sensor page
+## Become familiar with MRAA and UPM Online Resources
 
 Let's begin by opening three important reference pages.
 
