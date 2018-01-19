@@ -6,6 +6,8 @@ Libmraa is a C/C++ library with bindings to Java, Python and JavaScript to inter
 
 The intent is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
 
+** The MRAA/UPM Advantage is that the developer can write sensor/actuator code in a language of their choice and the MRAA/UPM API abstracts the hardware making it portable to a variety of IoT boards. ** 
+
 ##### Further Information
 - [MRAA on Github](https://github.com/intel-iot-devkit/mraa)
 - [MRAA Homepage](http://mraa.io/)
