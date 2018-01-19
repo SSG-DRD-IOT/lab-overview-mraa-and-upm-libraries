@@ -48,29 +48,17 @@ The constructor is expected to initialize the sensor and parameters may be used 
 Typically an update() function will be called in order to get new data from the sensor in order to reduce load when doing multiple reads to sensor data.
 
 ## UPM Advantage
-##### Language support
- C/C++, Java*, Node.js*, Python*
-##### OS support
-Wind River* Intelligent Device Platform XT, Wind River Pulsar* Linux*, Yocto*, Ubuntu*, Android*, Zephyr* RTOS, OpenSUSE*
-##### Connectivity options
-Wi-Fi, Bluetooth® low energy, ZigBee*, Z-Wave*, LoRa*, Modbus, BACnet*, GPS, GPRS, NFC/RFID, SigFox*, LoRaWAN*, 4G/LTE*
-##### Protocols
-GPIO, AIO, PWM, I2C, SPI, UART, 1-Wire*
 
-##### Portable
-Go from prototype to product with minimal rework
+| Language support | C/C++, Java*, Node.js*, Python*|
+| OS support       | Wind River* Intelligent Device Platform XT, Wind River Pulsar* Linux*, Yocto*, Ubuntu*, Android*, Zephyr* RTOS, OpenSUSE*|
+| Connectivity options | Wi-Fi, Bluetooth® low energy, ZigBee*, Z-Wave*, LoRa*, Modbus, BACnet*, GPS, GPRS, NFC/RFID, SigFox*, LoRaWAN*, 4G/LTE*|
+| Protocols | GPIO, AIO, PWM, I2C, SPI, UART, 1-Wire* |
+| Portable | Go from prototype to product with minimal rework |
+| License |  MIT-licensed | 
+| # of Sensors Supported | More than **400** supported sensors and actuators|
+| Distribution Channels | MRAA and UPM packages are available for multiple OS distributions and architectures, including OPKG repository, Ubuntu PPA, 01.org, NPM*, and Maven*|
+| Community and Ecosystem | Intel provides ongoing training and support for IoT developers—expanding the application pool for sensor manufacturers, ISVs, and SIs. At the same time, the Intel® Internet of Things Solutions Alliance allows sensor manufacturers to expand their customer base and connect with developers|
 
-##### Open source and MIT-licensed
-Develop products and solutions without extra licensing costs
-
-##### Sensor and Actuator Support
-More than **400** supported sensors and actuators
-
-##### Distribution Channels
-MRAA and UPM packages are available for multiple OS distributions and architectures, including OPKG repository, Ubuntu PPA, 01.org, NPM*, and Maven*
-
-##### Community and Ecosystem
-Intel provides ongoing training and support for IoT developers—expanding the application pool for sensor manufacturers, ISVs, and SIs. At the same time, the Intel® Internet of Things Solutions Alliance allows sensor manufacturers to expand their customer base and connect with developers
 
 ## Become familiar with MRAA and UPM Online Resources
 
