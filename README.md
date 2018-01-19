@@ -1,12 +1,18 @@
 # Overview of MRAA and UPM Library
 
-## What is the MRAA Library?
+## What are the MRAA and UPM Libraries?
 ![](./images/mraa.png)
-RAA is a C/C++ library with bindings to Java, Python and JavaScript to interface with the IO on a variety of IoT boards. Use of libmraa abstracts your specific hardware and uses board detection at runtime to create portable code that will work across many supported platforms.
+RAA is a C/C++ library that abstracts programming sensors and actuators from the hardware used and allows the developer to create portable code that will work across many IoT platforms.
+
+UPM is built on the cross-platform MRAA library, and it provides a high level object-oriented interface for more that 400 supported sensors. 
+
+For example, if you write a program to control an LED using the MRAA api it is portable across the Up<sup>2</sup> board, Minnowboard, Raspberry Pi*, Beaglebone Black* and other supported boards. 
+
+The MRAA api interface will be familiar to many developers who have programming using the Arduino API. To turn on an LED the developer must choose and GPIO, set it to be an input or an output and then set the GPIO to HIGH.
+
+The UPM api provides a high level object-oriented interface built on the MRAA api. For example instead of setting GPIOs HIGH and LOW, a developer can declare a LED object and call the *on*()* and *off() functions.
 
 The intent is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
-
-**The MRAA/UPM Advantage is that the developer can write sensor/actuator code in a language of their choice and the MRAA/UPM API abstracts the hardware making it portable to a variety of IoT boards.** 
 
 ##### Further Information
 - [MRAA on Github](https://github.com/intel-iot-devkit/mraa)
