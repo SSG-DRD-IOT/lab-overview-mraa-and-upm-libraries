@@ -16,7 +16,7 @@ The intent is to make it easier for developers and sensor manufacturers to map t
 
 ##### Further Information
 - [MRAA on Github](https://github.com/intel-iot-devkit/mraa)
-- [MRAA Homepage](http://mraa.io/)
+- [UPM Homepage](http://upm.mraa.io/)
 
 ## Architecture of I/O using MRRA and UPM
 MRRA and UPM are application level libraries that are used in IoT applications to communicate with sensors and actuators.
