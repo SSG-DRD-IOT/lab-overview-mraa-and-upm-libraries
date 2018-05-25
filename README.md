@@ -74,7 +74,7 @@ Typically an update() function will be called in order to get new data from the 
 
 **Keep these webpages open so that you can reference them in this lab and later in the workshop**
 
-![](./images/action.png) **Open the [Sensors page ](https://iotdk.intel.com/docs/master/mraa/) on the Intel Developer Zone**
+![](./images/action.png) **Open the [MRAA Documentation Page](https://iotdk.intel.com/docs/master/mraa/)**
 
 The sensors page will link to articles related to sensor and actuator support, as well as, a list of industrial sensors that are supported
 
