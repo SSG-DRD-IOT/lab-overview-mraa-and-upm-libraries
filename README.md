@@ -88,6 +88,6 @@ Take some time to look up a couple of sensors or actuators that are of intereste
 
 ![](./images/temp.png)
 
-![](./images/action.png) Look up the [Grove Rotary Angle Sensor](https://upm.mraa.io/sensorDetail.html?name=rotary) in your kit.
+![](./images/action.png) Look up the [Grove Rotary Angle Sensor](https://upm.mraa.io/sensorDetail.html?name=Rotary) in your kit.
 
 ![](./images/rotary.png)
